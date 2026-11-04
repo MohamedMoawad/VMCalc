@@ -1,0 +1,44 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cost-calculator-client-side-solution",
+    "id": "29161f30-c15b-41c3-a1cd-83797811eb64",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": false,
+    "developer": {
+      "name": "Cost Calculator",
+      "websiteUrl": "https://learn.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview",
+      "privacyUrl": "https://learn.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview",
+      "termsOfUseUrl": "https://learn.microsoft.com/sharepoint/dev/spfx/sharepoint-framework-overview",
+      "mpnId": "Undefined-1.24.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Cost calculator that reads prices from a configuration list and saves the result."
+      },
+      "longDescription": {
+        "default": "A SharePoint page where someone enters quantities, sees the calculated amount, and saves the sheet. Prices and extra items are maintained in the Cost Configuration list."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cost-calculator Feature",
+        "description": "The feature that activates elements of the cost-calculator solution.",
+        "id": "cbb59ff7-8226-4d19-9f5b-a30fb32db0cc",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cost-calculator.sppkg"
+  }
+}

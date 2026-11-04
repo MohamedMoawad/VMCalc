@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance
+    FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+    Title="Cost Configuration"
+    Description="Prices and items for the Cost Calculator. Change a price or add a row. The calculator reads this list."
+    TemplateType="100"
+    Url="Lists/CostConfiguration"
+    OnQuickLaunch="TRUE">
+  </ListInstance>
+  <ListInstance
+    FeatureId="00bfea71-de22-43b2-a848-c05709900100"
+    Title="Cost Calculations"
+    Description="Saved cost sheets. Each row stores the total and a snapshot of the lines and prices used."
+    TemplateType="100"
+    Url="Lists/CostCalculations"
+    OnQuickLaunch="TRUE">
+  </ListInstance>
+</Elements>

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cost-calculator-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/costCalculator/CostCalculatorWebPart.js",
+          "manifest": "./src/webparts/costCalculator/CostCalculatorWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CostCalculatorWebPartStrings": "lib/webparts/costCalculator/loc/{locale}.js"
+  }
+}
