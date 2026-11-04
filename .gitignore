@@ -16,9 +16,10 @@ lib-commonjs
 lib-esm
 jest-output
 release
-solution
 temp
+sharepoint/solution/debug
 *.sppkg
+!sharepoint/solution/*.sppkg
 .heft
 
 # Coverage directory used by tools like istanbul

@@ -44,7 +44,7 @@ npm install
 npm run build
 ```
 
-Upload `sharepoint/solution/cost-calculator.sppkg` to the app catalog and deploy it. Add the app to the site. Adding the app creates two lists:
+The deployment file is `sharepoint/solution/cost-calculator.sppkg`. Upload that file to the app catalog and deploy it. Add the app to the site. Adding the app creates two lists:
 
 - **Cost Configuration** — prices and items
 - **Cost Calculations** — saved sheets
